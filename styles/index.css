@@ -1,0 +1,26 @@
+:root {
+  --header-bg: linear-gradient(180deg, #b7dca7 0%, rgba(183, 220, 167, 0) 100%);
+  --border-color: #e4e7ed;
+  --text-color: #333;
+  --brand-color: #c3e1b5;
+  --bg: #ffffff;
+}
+
+.dark {
+  --border-color: #414243;
+  --text-color: #fff;
+  --bg: #141414;
+
+  color-scheme: dark;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--bg);
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+}
+
+.markdown-body {
+  background-color: transparent;
+}
